@@ -1,203 +1,257 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-            crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-        <!-- Custom CSS -->
+    <!-- Custom CSS -->
 
-        <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="media.css">
 
-        <!-- Google Fonts -->
+    <title>Free Code Camp - Responsive Web Design Project: Product Landing Page</title>
 
-        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:700" rel="stylesheet">
+</head>
 
-        <title>Free Code Camp - Responsive Web Design Project: Product Landing Page</title>
-    </head>
+<body class="container-fluid">
 
-    <body class="container-fluid bg-image globalFont">
-
-        <div class="row">
-            <div id="justFuckingCenter" class="col-2">
-            <button id="myButton" class="btn btn-dark">Place an Order</button>
-            <form id="myForm"></form>
-        </div>
-        </div>
-
-        <!-- navigation -->
-
-        <div class="row bg-light sticky-top">
-            <div class="col-lg-2 pagination justify-content-left">
-                <a href="#">
-                    <img class="mt-2 mr-4 mb-2 ml-4" src=""
-                        alt="logo" style="width:200px;height:auto;border:0;">
-                </a>
+    <div class="mr-3 ml-3 sticky-top">
+        <!-- ID NAV BAR -->
+        <nav id="nav-bar" class="row justify-content-center btn-danger">
+            <div class="navbar navbar-expand-lg navbar-light text-uppercase bg-light">
+                <a class="nav-link mr-4" href="#features">Features</a>
+                <a class="nav-link mr-4" href="#llamas">Products</a>
+                <a class="nav-link mr-4" href="#about">About</a>
+                <a class="nav-link mr-4" href="#contact">Contact</a>
             </div>
-            <nav class="col-lg-10 navbar navbar-expand-lg navbar-light text-uppercase pagination justify-content-left">
-                <a class="nav-link text-white mr-4 bg-Custom" href="#">place an order</a>
-                <a class="nav-link text-white mr-4 bg-Custom" href="#">get a quote</a>
-                <a class="nav-link text-white mr-4 bg-Custom" href="#">browse used listings</a>
-                <a class="nav-link text-white mr-4 bg-Custom" href="#">faq</a>
-                <a class="nav-link text-white mr-4 bg-Custom" href="#">testimonials</a>
+        </nav>
+    </div>
 
-                <!-- Searchbar -->
+    <!-- ID HEADER -->
+    <header id="header" class="bg-primary text-white">
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <form class="form-inline my-2 my-lg-0">
-                        <input id="searchBox" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
-        </div>
-
-        <!-- Carousel -->
-
-        <div id="carouselExampleIndicators" class="carousel slide mt-3 border border border-light rounded" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="">
-                    alt="First slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>Welcome to the Stumpf Balloons web site and online catalog!</h1>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="">
-                    alt="Second slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Stumpf Balloons offers an extensive assortment of products for Hot Air Balloonists, and one of
-                                the most comprehensive selections of hot air ballooning equipment and services available
-                                anywhere in the world.</h2>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="">
-                    alt="Third slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Even if you're not a balloonist, you will still see many unique and
-                                hard-to-find items throughout our site.</h2>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+        <div class="row justify-content-center">
+            <a href="#">
+                <!-- ID HEADER IMG -->
+                <img id="header-img" class="mt-2 mr-4 mb-2 ml-4" src="./assets/img/llama-logo.jpg" alt="logo"
+                    style="height:150px; width:auto;">
             </a>
         </div>
 
-        <!-- card deck row 1 -->
+        <div class="row mt-2 mb-2 justify-content-center">
+            <!-- ID HEADER -->
+            <h1 id="header">YoMamas Llamas</h1>
+        </div>
+        <div class="row mt-2 mb-2 justify-content-center">
 
-        <!-- banners -->
+            <h2 id="tagline">Adorable Llamas for the whole family!</h2>
+        </div>
+    </header>
 
-        <div class="card-deck mt-4 text-center">
-            <div class="card">
-                <div class="card-header">Banners</div>
-                <img class="card-img-top" src="" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Custom banner services for all your advertising needs.</p>
-                    <a href="/Users/nick/Repositories/StumpfBalloons/html/banners.html" class="btn btn-dark">More Info</a>
-                </div>
-
-                <!-- catalog -->
-
+    <div class="mr-3 ml-3">
+        <div class="row mt-4">
+            <div class="col d-flex p-2 align-items-center justify-content-center" style="background-color:aqua;">
+                <img class="img-fluid" src="assets/img/soap.png" width="100px" alt="soap icon">
             </div>
-            <div class="card text-center">
-                <div class="card-header">Equipment Catalog</div>
-                <img class="card-img-top" src="" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Catalog of all hotair balloon products.</p>
-                    <a href="#" class="btn btn-dark">More Info</a>
-                </div>
-
-                <!-- Lightweights -->
-
+            <div class="col d-flex p-2 align-items-center justify-content-center" style="background-color:blueviolet;">
+                <img class="img-fluid" src="assets/img/llama-brush.png" width="100px" alt="brush icon">
             </div>
-            <div class="card text-center">
-                <div class="card-header">Super Lightweight Balloons</div>
-                <img class="card-img-top" src="" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Custom built super lightweight balloons.</p>
-                    <a href="#" class="btn btn-dark">More Info</a>
+            <div class="col d-flex p-2 align-items-center justify-content-center" style="background-color:greenyellow;">
+                <img class="img-fluid" src="assets/img/shipping.png" width="100px" alt="shipping icon">
+            </div>
+        </div>
+
+        <div class="row mb-4 text-white">
+            <div class="col d-flex p-2 align-items-center justify-content-center" style="background-color:aqua;">
+                <h3>Squeaky clean!</h3>
+            </div>
+            <div class="col d-flex p-2 align-items-center justify-content-center" style="background-color:blueviolet;">
+                <h3>Gently brushed!</h3>
+            </div>
+            <div class="col d-flex p-2 align-items-center justify-content-center" style="background-color:greenyellow;">
+                <h3>Shipped to your door in seconds!</h3>
+            </div>
+        </div>
+    </div>
+
+    <h3 id="features" class="text-center m-4">Features</h3>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide mt-3 border border border-light rounded"
+        data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./assets/img/purplebackground.jpg" height="250px" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Welcome to YoMamas Llamas! The BEST damn llama farm on the east coast!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/img/bluebackground.jpg" height="250px" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>All of our llamas are unique and have their own special talents!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/img/greenbackground.jpg" height="250px" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>NO they are not the same as Alpacas ssshhh they take offense to that!</p>
                 </div>
             </div>
         </div>
 
-        <!-- card deck row 2 -->
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
-        <!-- repair station -->
+    <h3 id="llamas" class="text-center m-4">Meet the Llamas</h3>
 
-        <div class="card-deck mt-4 text-center">
-            <div class="card">
-                <div class="card-header">Repair Station</div>
-                <img class="card-img-top" src="" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Balloon repair station - Servicing the east coast ballooning community and beyond
-                        for more than 30 years.</p>
-                    <a href="#" class="btn btn-dark">More Info</a>
-                </div>
 
-                <!-- cold airs -->
+    <!-- card deck row 1 -->
 
+    <!-- banners -->
+
+    <div class="card-deck mt-4 text-center">
+        <div class="card">
+            <div class="card-header">"Masie"</div>
+            <img class="card-img-top img-fluid"
+                src="https://www.thebooktree.com.au/sites/5218/products/340100_llama4_large.jpg?v=a4e0416684aeb70522971bf6fb07291f"
+                alt="Card image cap">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">More Info</a>
             </div>
-            <div class="card text-center">
-                <div class="card-header">Cold Air Balloons</div>
-                <img class="card-img-top" src="" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Cold air inflatable balloons and services.</p>
-                    <a href="#" class="btn btn-dark">More Info</a>
-                </div>
 
-                <!-- used equipment -->
+            <!-- catalog -->
 
+        </div>
+        <div class="card text-center">
+            <div class="card-header">"Jaime"</div>
+            <img class="card-img-top img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/61h-R4Oy7mL._SX425_.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">More Info</a>
             </div>
-            <div class="card text-center">
-                <div class="card-header">Used Equipment Listings</div>
-                <img class="card-img-top" src=""
-                    alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Community listings of used equipment. Find some great deals!</p>
-                    <a href="#" class="btn btn-dark">More Info</a>
-                </div>
+
+            <!-- Lightweights -->
+
+        </div>
+        <div class="card text-center">
+            <div class="card-header">"Jim"</div>
+            <img class="card-img-top img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/61EzrWX4rnS._SX466_.jpg"
+                alt="Card image cap" height="413px">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">More Info</a>
             </div>
         </div>
+    </div>
 
-        <!-- footer -->
+    <!-- card deck row 2 -->
 
-        <div class="row mt-4 p-2 pagination justify-content-center bg-light">
-            <h5>&copy Some Cool Product 2019</h5>
+    <!-- repair station -->
+
+    <div class="card-deck mt-4 text-center">
+        <div class="card">
+            <div class="card-header">"Paco"</div>
+            <img class="card-img-top img-fluid" src="https://images1.novica.net/pictures/4/p295604_2a_400.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">More Info</a>
+            </div>
+
+            <!-- cold airs -->
+
         </div>
+        <div class="card text-center">
+            <div class="card-header">"Louisa"</div>
+            <img class="card-img-top img-fluid"
+                src="https://secure.img2-fg.wfcdn.com/im/18389729/resize-h310-w310%5Ecompr-r85/8791/87914162/resin-llama-figurine.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">More Info</a>
+            </div>
 
-        <!-- Optional JavaScript -->
-        <script src="assets/javascript/app.js"></script>
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+            <!-- used equipment -->
 
-    </body>
+        </div>
+        <div class="card text-center">
+            <div class="card-header">"Grace"</div>
+            <img class="card-img-top img-fluid"
+                src="https://secure.img2-fg.wfcdn.com/im/86762216/compr-r85/5692/56928617/Rummond+Floral+Llama+3.5%22+Ceramic+Peru+Figurine.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">More Info</a>
+            </div>
+        </div>
+    </div>
+
+    <h5 id="about" class="text-center m-4">About</h5>
+
+    <div class="mr-3 ml-3">
+        <div class="row" style="height:300px;">
+            <div class="col d-flex p-2 align-items-center justify-content-center" style="background-color:hotpink;">
+                <iframe id="video" height="200px" src="https://www.youtube.com/embed/vL0HXIXCX58" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+            <div class="col d-flex p-2 align-items-center justify-content-center"
+                style="background-color:cornflowerblue">
+                <img src="./assets/img/farm.png" height="200px" alt="farm">
+            </div>
+        </div>
+    </div>
+
+    <h4 id="contact" class="text-center m-4">Contact Us!</h4>
+
+    <div class="mr-3 ml-3">
+        <div class="row justify-content-center text-center bg-primary text-white">
+            <form id="form" class="p-3" action="https://www.freecodecamp.com/email-submit">
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small class="form-text">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" placeholder="name">
+                </div>
+                <button id="submit" type="submit" class="btn btn-danger">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row mt-4 p-2 justify-content-center">
+        <h6>&copy Some Cool Product 2019</h6>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="assets/javascript/app.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
 
 </html>
